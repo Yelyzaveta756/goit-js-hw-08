@@ -1,0 +1,51 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: azure;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    }
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+	color: currentColor;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 1128px;
+    align-items: center;
+    margin: 0 auto
+}
+
+.gallery-item {
+    width: calc((100% - 24px)/3);
+}
